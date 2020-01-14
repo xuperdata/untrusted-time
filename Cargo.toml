@@ -17,8 +17,8 @@ Limitation: **only** supports UTC timezone.
 rustc-serialize = { version = "0.3", optional = true }
 
 [target.'cfg(not(target_env = "sgx"))'.dependencies]
-sgx_tstd = { git = "https://github.com/apache/teaclave-sgx-sdk" , version="1.1.0" }
-sgx_trts = { git = "https://github.com/apache/teaclave-sgx-sdk" , version="1.1.0" }
+sgx_tstd = { git = "https://github.com/apache/teaclave-sgx-sdk" , rev="v1.1.0" }
+sgx_trts = { git = "https://github.com/apache/teaclave-sgx-sdk" , rev="v1.1.0" }
 
 [dev-dependencies]
 log = "0.4"
